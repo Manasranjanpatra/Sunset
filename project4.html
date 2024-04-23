@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="project4.css">
+</head>
+
+<body>
+    <div class="contain">
+        <nav class="fir1">
+            <a href="ffv">Home</a>
+            <a href="ffv">About</a>
+            <a href="ffv">services</a>
+            <a href="ffv">Contact</a>
+        </nav>
+        <form action="/tgh" class="form1">
+            <input type="search" class="type1 " placeholder="Search...">
+            <button type="submit"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+
+        </form>
+    </div>
+    <section>
+        <div class="background"></div>
+        <div class="container">
+            <div class="content">
+                <h1 class="h1"><i class="fa-solid fa-fire"></i>codehel</h1>
+
+                <div class="text-sci">
+                    <h2 class="h2">WELCOME!<BR></h2>
+                    <div class="h22">
+                        <h2><span class="span">To my New website </span></h2>
+                    </div>
+
+                    <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis aliquam ratione cum
+                        provident odit architecto est maiores ullam, laudantium magni hah dsyugb svyhbsaxuzgbyhvsyhqvs
+                        zs.</p>
+                    <div class="social-icon">
+                        <a href="dj"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="dj"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="dj"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="dj"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="logleg">
+                <div class="formlogin">
+                    <form class="signin" action="#">
+                        <h2>Sign inn</h2>
+
+                        <div class="inputbox">
+                            <span class="iconn"><i class="fa-solid fa-envelope"></i></span>
+                            <input type="email" required />
+                            <label>Email</label>
+
+                        </div>
+                        <div class="inputbox">
+                            <span class="iconn"><i class="fa-solid fa-lock"></i></span>
+                            <input type="password" required />
+                            <label>Password</label>
+                        </div>
+                        <div class="remember">
+                            <label>
+                                <input type="checkbox">Remember me
+                            </label>
+                            <a href="#" class="rema">forgot password</a>
+                        </div>
+
+                        <button type="submit" class="btn">Sign in </button>
+                        <div class="login-register">
+                            <p> Don't hhave an account ? <a href="#" class="loa" >sign up</a></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="formloginreg  wrapper">
+                    <form class="signin" action="#">
+                        <h2>Sign up</h2>
+                        <div class="inputbox">
+                            <span class="iconn"><i class="fa-solid fa-envelope"></i></span>
+                            <input type="email" required />
+                            <label>Email</label>
+
+                        </div>
+
+                        <div class="inputbox">
+                            <span class="iconn"><i class="fa-solid fa-envelope"></i></span>
+                            <input type="email" required />
+                            <label>Email</label>
+
+                        </div>
+                        <div class="inputbox">
+                            <span class="iconn"><i class="fa-solid fa-lock"></i></span>
+                            <input type="password" required />
+                            <label>Password</label>
+                        </div>
+                        <div class="remember">
+                            <label>
+                                <input type="checkbox">Remember me
+                            </label>
+                            <a href="#" class="rema">forgot password</a>
+                        </div>
+
+                        <button type="submit" class="btn">Sign in </button>
+                        <div class="login-register">
+                            <p> Don't haveee ann account ? <a href="#" class="loa" id="up">sign up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script >
+        const signinn =document.querySelector(".loa");
+        const signup =document.querySelector("#up");
+
+        
+     
+        signinn.addEventListener('click',()=>{
+            document.querySelector(".formloginreg").classList.remove("wrapper");
+        })
+        signup.addEventListener('click',()=>{
+            document.querySelector(".formloginreg").classList.add("wrapper");
+        })
+        // open();
+    </script>
+</body>
+
+</html>
